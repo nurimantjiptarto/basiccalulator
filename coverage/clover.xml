@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1589546297866" clover="3.2.0">
-  <project timestamp="1589546297866" name="All files">
+<coverage generated="1589549264023" clover="3.2.0">
+  <project timestamp="1589549264024" name="All files">
     <metrics statements="37" coveredstatements="33" conditionals="4" coveredconditionals="4" methods="17" coveredmethods="13" elements="58" coveredelements="50" complexity="0" loc="37" ncloc="37" packages="1" files="9" classes="9"/>
     <file name="calculator.js" path="/Users/nurimantjiptarto/IS219-Spring2020/basiccalulator/calculator.js">
       <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
