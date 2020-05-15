@@ -1,18 +1,14 @@
-const addition = require('sum');
-const multiply = require('multiply');
-const divide = require('division');
-const difference = require('subtract');
-const sqrt = require('sqrt');
-const square = require('square');
+const sum = require('./sum');
+const multiply = require('./multiply');
+const divide = require('./division');
+const subtract = require('./subtract');
+const sqrt = require('./sqrt');
+const square = require('./square');
 
 class mathOperations {
-    static sum(a = null, b = null) {
-        if(Array.isArray(a)) {
-            return addition.sum(a);
-        } else {
-            return addition.sum(a,b);
-        }
-    }
+    static sum(a, b) {
+        return sum(a,b);
+      }
     static product(a,b) {
         return multiply(a,b);
     }
@@ -20,14 +16,14 @@ class mathOperations {
         return divide(a,b);
     }
     static difference(a,b) {
-        return difference.difference(a,b);
+        return subtract(a,b);
     }
     static sqrt(a){
-        return sqrt.sqrt(a);
+        return sqrt(a);
     }
     static square(a,b){
-        return square.square(a,b);
+        return square(a,b);
     }
 }
 
-module.exports = MathOperations;
+module.exports = mathOperations;

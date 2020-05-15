@@ -1,22 +1,17 @@
-const mathOperations = require('mathOperations');
+const mathOperations = require('./mathOperations');
 
-class Calculator {
-    Add(a = null, b = null) {
-        if (Array.isArray(a)) {
-            return this.Result = mathOperations.sum(a);
-
-        } else {
-            return this.Result = mathOperations.sum(a, b);
-        }
+class calculator {
+    sum(a,b){
+        return this.Result = mathOperations.sum(a,b);
     }
-    Divide(a,b) {
+    divide(a,b) {
         return this.Result = mathOperations.quotient(a,b);
     }
-    Multiply(a,b) {
+    multiply(a,b) {
         return this.Result = mathOperations.product(a,b);
     }
-    Difference(a,b) {
+    difference(a,b) {
         return this.Result = mathOperations.difference(a,b);
     }
 }
-module.exports = Calculator;
+module.exports = calculator;

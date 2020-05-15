@@ -1,4 +1,4 @@
-function squareroot(a) {
+function sqrt(a) {
     return Math.sqrt(a) ;
 }
-module.exports = squareroot;
+module.exports = sqrt;

@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1589483017204" clover="3.2.0">
-  <project timestamp="1589483017204" name="All files">
-    <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7" elements="29" coveredelements="29" complexity="0" loc="18" ncloc="18" packages="1" files="7" classes="7"/>
+<coverage generated="1589512960379" clover="3.2.0">
+  <project timestamp="1589512960380" name="All files">
+    <metrics statements="37" coveredstatements="33" conditionals="4" coveredconditionals="4" methods="17" coveredmethods="13" elements="58" coveredelements="50" complexity="0" loc="37" ncloc="37" packages="1" files="9" classes="9"/>
+    <file name="calculator.js" path="/Users/nurimantjiptarto/IS219-Spring2020/basiccalulator/calculator.js">
+      <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+    </file>
     <file name="division.js" path="/Users/nurimantjiptarto/IS219-Spring2020/basiccalulator/division.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+    </file>
+    <file name="mathOperations.js" path="/Users/nurimantjiptarto/IS219-Spring2020/basiccalulator/mathOperations.js">
+      <metrics statements="13" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3"/>
+      <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
     </file>
     <file name="multiply.js" path="/Users/nurimantjiptarto/IS219-Spring2020/basiccalulator/multiply.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
     </file>
     <file name="sanitization.js" path="/Users/nurimantjiptarto/IS219-Spring2020/basiccalulator/sanitization.js">
       <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
@@ -24,22 +49,22 @@
     <file name="sqrt.js" path="/Users/nurimantjiptarto/IS219-Spring2020/basiccalulator/sqrt.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="2" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
     </file>
     <file name="square.js" path="/Users/nurimantjiptarto/IS219-Spring2020/basiccalulator/square.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="2" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
     </file>
     <file name="subtract.js" path="/Users/nurimantjiptarto/IS219-Spring2020/basiccalulator/subtract.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="2" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
     </file>
     <file name="sum.js" path="/Users/nurimantjiptarto/IS219-Spring2020/basiccalulator/sum.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="6" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>
